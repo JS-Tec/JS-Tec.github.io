@@ -57,7 +57,7 @@
     </nav>
 </section>
 
-<section class="engine"><a href="https://mobirise.info/c">free web builder</a></section><section class="header6 cid-rXwp0yJx6j mbr-fullscreen" id="header6-a">
+<section class="engine"><a href="https://mobirise.info/s">bootstrap themes</a></section><section class="header6 cid-rXwp0yJx6j mbr-fullscreen" id="header6-a">
 
     
 
@@ -80,7 +80,7 @@
     </div>
 </section>
 
-<meta name="description" content="HTML5 Audio Spectrum Visualizer" class="cid-rXwoSQpzEI" id="custom-html-9" data-rv-view="53"><title class="cid-rXwoSQpzEI" id="custom-html-9" data-rv-view="53">Audio Visualizer | JS Tec YT</title><style type="text/css" class="cid-rXwoSQpzEI" id="custom-html-9" data-rv-view="53">
+<meta name="description" content="HTML5 Audio Spectrum Visualizer" class="cid-rXwoSQpzEI" id="custom-html-9" data-rv-view="78"><title class="cid-rXwoSQpzEI" id="custom-html-9" data-rv-view="78">Audio Visualizer | JS Tec YT</title><style type="text/css" class="cid-rXwoSQpzEI" id="custom-html-9" data-rv-view="78">
             html, body {
                 margin: 0;
                 font-family: arial, "Microsoft YaHei";
@@ -101,7 +101,7 @@
                 bottom: 2px;
                 color:#aaa;
             }
-        </style><div id="custom-html-9" class="cid-rXwoSQpzEI" data-rv-view="53">
+        </style><div id="custom-html-9" class="cid-rXwoSQpzEI" data-rv-view="78">
             <div id="fileWrapper" class="file_wrapper">
                 <div id="info">
                     Online Audio Visualizer
@@ -112,9 +112,9 @@
             <div id="visualizer_wrapper">
                 <canvas id="canvas" width="1000" height="500"></canvas>
             </div>
-        </div><footer class="cid-rXwoSQpzEI" id="custom-html-9" data-rv-view="53">
+        </div><footer class="cid-rXwoSQpzEI" id="custom-html-9" data-rv-view="78">
             <small>Check out my <a href="https://www.youtube.com/channel/UCKCPp4D4xix6_vhvi6ekw9g?sub_confirmation=1/" target="_blank">YouTube Channel!</a></small>
-        </footer><script type="text/javascript" class="cid-rXwoSQpzEI" id="custom-html-9" data-rv-view="53">
+        </footer><script type="text/javascript" class="cid-rXwoSQpzEI" id="custom-html-9" data-rv-view="78">
             window.onload = function() {
                 new Visualizer().ini();
             };
@@ -213,21 +213,21 @@
                         if (audioContext === null) {
                             return;
                         };
-                        that._updateInfo('Decoding the audio', true);
+                        that._updateInfo('Loading...', true);
                         audioContext.decodeAudioData(fileResult, function(buffer) {
-                            that._updateInfo('Decode succussfully,start the visualizer', true);
+                            that._updateInfo('Ready', true);
                             that._visualize(audioContext, buffer);
                         }, function(e) {
-                            that._updateInfo('!Fail to decode the file', false);
+                            that._updateInfo('Unable to Decode File!', false);
                             console.log(e);
                         });
                     };
                     fr.onerror = function(e) {
-                        that._updateInfo('!Fail to read the file', false);
+                        that._updateInfo('Unable to Read File!', false);
                         console.log(e);
                     };
                     //assign the file to the reader
-                    this._updateInfo('Starting read the file', true);
+                    this._updateInfo('Reading File...', true);
                     fr.readAsArrayBuffer(file);
                 },
                 _visualize: function(audioContext, buffer) {
@@ -354,7 +354,7 @@
                     };
                 }
             }
-        </script><script class="cid-rXwoSQpzEI" id="custom-html-9" data-rv-view="53">
+        </script><script class="cid-rXwoSQpzEI" id="custom-html-9" data-rv-view="78">
         </script>
 
 
