@@ -2496,11 +2496,10 @@ background-color: @bgColor;
 }
 .cid-rXwtLwh1jk {
   background: #ffffff;
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 .cid-rXwtLwh1jk .video-block {
   margin: auto;
+  width: 100% !important;
 }
 @media (max-width: 768px) {
   .cid-rXwtLwh1jk .video-block {
@@ -2914,4 +2913,16 @@ background-color: @bgColor;
 .cid-rX8XS8TE83 .nav-link:hover,
 .cid-rX8XS8TE83 .dropdown-item:hover {
   color: #c1c1c1 !important;
+}
+.cid-rXwuKy3HdN {
+  background: #ffffff;
+}
+.cid-rXwuKy3HdN .video-block {
+  margin: auto;
+  width: 100% !important;
+}
+@media (max-width: 768px) {
+  .cid-rXwuKy3HdN .video-block {
+    width: 100% !important;
+  }
 }
