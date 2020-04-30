@@ -742,27 +742,6 @@
           "_global": false,
           "_once": false,
           "_params": {}
-        },
-        {
-          "alias": "deltapi-code-editor",
-          "_isSecondary": true,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-section": {
-              "text-align": "center",
-              "color": "#fff"
-            }
-          },
-          "_name": "custom-html",
-          "_customHTML": "<script>\nif (confirm('Would you like to Subscribe to JS Tec?')) {\n  window.open(\"bit.ly/JTSC1\");\n} else {\n}\n</script>",
-          "_cid": "rXClkRzz9p",
-          "_anchor": "custom-html-v",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
         }
       ]
     },
