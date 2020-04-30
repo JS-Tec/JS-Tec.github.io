@@ -1739,13 +1739,13 @@ nav.opened .hamburger span {
 @showText: true;
 @showButtons: true;
 @showArrow: true;
-@uname__12: "file:///C:/Users/pixel/Desktop/JSTECWEBSITE/assets/images/background4.jpg";
+@uname__12: "file:///C:/Users/pixel/Desktop/JSTECWEBSITE/assets/images/mbr-1920x1080.png";
 @uname__13: true;
 @uname__14: #ffffff;
-@bg-value: #ffffff;
-@bg-type: "color";
+@bg-value: "file:///C:/Users/pixel/Desktop/JSTECWEBSITE/assets/images/mbr-1920x1080.png";
+@bg-type: "image";
 @bg-color-value: #ffffff;
-@bg-parallax: false;
+@bg-parallax: true;
 @overlay: true;
 @overlayColor: #232323;
 @overlayOpacity: 0.5;
@@ -1761,7 +1761,7 @@ nav.opened .hamburger span {
   background-image: url(../../../@bg-value);
 }
 H1 {
-  color: #232323;
+  color: #ffffff;
 }
 }
 
