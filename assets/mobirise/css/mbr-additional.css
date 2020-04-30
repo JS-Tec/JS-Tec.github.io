@@ -1741,10 +1741,10 @@ nav.opened .hamburger span {
 @showArrow: true;
 @uname__12: "file:///C:/Users/pixel/Desktop/JSTECWEBSITE/assets/images/background4.jpg";
 @uname__13: true;
-@uname__14: #2f2e2e;
-@bg-value: #2f2e2e;
+@uname__14: #149dcc;
+@bg-value: #149dcc;
 @bg-type: "color";
-@bg-color-value: #2f2e2e;
+@bg-color-value: #149dcc;
 @bg-parallax: false;
 @overlay: true;
 @overlayColor: #232323;
@@ -1759,6 +1759,9 @@ nav.opened .hamburger span {
 }
 & when (@bg-type = 'image') {
   background-image: url(../../../@bg-value);
+}
+H1 {
+  color: #ffffff;
 }
 }
 
