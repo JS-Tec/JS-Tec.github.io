@@ -3,4 +3,4 @@ Disallow: /cgi-bin
 Disallow: /vid001.html
 Disallow: /vid002.html
 Disallow: /vid003.html
-Sitemap: http://js-tec.github.io/sitemap.xml
+
