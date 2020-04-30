@@ -1731,13 +1731,13 @@ nav.opened .hamburger span {
 }
 }
 
-.cid-rXwp0yJx6j {
+.cid-rXCJfjWd6A {
 @fullScreen: true;
 @paddingTop: 6;
 @paddingBottom: 6;
 @showTitle: true;
-@showText: false;
-@showButtons: false;
+@showText: true;
+@showButtons: true;
 @showArrow: true;
 @uname__12: "file:///C:/Users/pixel/Desktop/JSTECWEBSITE/assets/images/background4.jpg";
 @uname__13: true;
