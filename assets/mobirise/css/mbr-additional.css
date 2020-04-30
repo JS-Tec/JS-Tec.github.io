@@ -1741,10 +1741,10 @@ nav.opened .hamburger span {
 @showArrow: true;
 @uname__12: "file:///C:/Users/pixel/Desktop/JSTECWEBSITE/assets/images/background4.jpg";
 @uname__13: true;
-@uname__14: #ffffff;
-@bg-value: #ffffff;
+@uname__14: #149dcc;
+@bg-value: #149dcc;
 @bg-type: "color";
-@bg-color-value: #ffffff;
+@bg-color-value: #149dcc;
 @bg-parallax: false;
 @overlay: true;
 @overlayColor: #232323;
@@ -1761,7 +1761,7 @@ nav.opened .hamburger span {
   background-image: url(../../../@bg-value);
 }
 H1 {
-  color: #232323;
+  color: #ffffff;
 }
 }
 
@@ -1773,101 +1773,5 @@ background-color: @bgColor;
 .mbr-section {
   text-align: center;
   color: #fff;
-}
-}
-
-.cid-rXCFnk09i7 {
-@paddingTop: 4;
-@paddingBottom: 4;
-@showTitle: true;
-@showSubtitle: true;
-@progressColor: #149dcc;
-@progressCount: "1";
-@progress1: 36;
-@progress2: 80;
-@progress3: 90;
-@progress4: 100;
-@uname__13: "../../app/themes/mobirise4/components/progress-bars1/../_images/background1.jpg";
-@uname__14: false;
-@uname__15: #ffffff;
-@bg-value: #ffffff;
-@bg-type: "color";
-@bg-color-value: #ffffff;
-@bg-parallax: false;
-@overlay: true;
-@overlayColor: #ffffff;
-@overlayOpacity: 0.7;
-
-padding-top: (@paddingTop * 15px);
-padding-bottom: (@paddingBottom * 15px);
-& when (@bg-type = 'color') {
-  background-color: @bg-value;
-}
-& when (@bg-type = 'image') {
-  background-image: url(../../../@bg-value);
-}
-.progress {
-  width: 100%;
-}
-progress {
-  height: 8px;
-}
-h3 {
-  text-align: center;
-  font-weight: 300;
-}
-.mbr-section-subtitle {
-  color: #767676;
-}
-.progress_value {
-  position: relative;
-}
-.progress_elements {
-  margin: 0 auto;
-}
-.title-wrap {
-  display: flex;
-  justify-content: space-between;
-  -webkit-justify-content: space-between;
-}
-.progress1 .progressbar-number:before, .progress2 .progressbar-number:before, .progress3 .progressbar-number:before, .progress4 .progressbar-number:before {
-  position: absolute;
-  right: 15px;
-  top: 0;
-}
-progress[value]::-webkit-progress-bar {
-  background: rgba(206, 206, 206, 0.4);
-}
-progress::-webkit-progress-value {
-  background: @progressColor;
-}
-progress[value]::-moz-progress-bar {
-  background: @progressColor;
-}
-progress::-ms-fill {
-  background: @progressColor;
-}
-.progress1 .progressbar-number:before {
-  content: '@{progress1}';
-}
-.progress2 .progressbar-number:before {
-  content: '@{progress2}';
-}
-.progress3 .progressbar-number:before {
-  content: '@{progress3}';
-}
-.progress4 .progressbar-number:before {
-  content: '@{progress4}';
-}
-.progress-primary {
-  background: rgba(206, 206, 206, 0.4);
-  border: none;
-  outline: none;
-}
-.progress-primary::-webkit-progress-bar {
-  background: rgba(206, 206, 206, 0.4);
-}
-.progress_value span {
-  padding-left: 30px;
 }
 }
